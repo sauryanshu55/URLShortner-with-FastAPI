@@ -1,5 +1,9 @@
 # URLShortner-with-FastAPI
 
+Please use a virual environment when possible.
+```
+$> python3 -m venv /path/to/new/virtual/environment
+```
 Use the Shell command on the root directory
 ```
 $> uvicorn shortener_app.main:API --reload
